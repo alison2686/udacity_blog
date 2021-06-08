@@ -1,0 +1,90 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "hd"
+    "nav"
+    "main"
+    "ft";
+    /* border: 20px solid orange; */
+}
+
+.navbar {
+    display: inline;
+    grid-area: nav;
+    border: 2px solid red; 
+}
+
+.content {
+    display: grid;
+    grid-area:main;
+    border: 2px solid greenyellow;
+}
+
+.card {
+    border: 10px solid green;
+}
+
+.post_content {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 0.7;
+}
+
+#NestedGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    border: 2px solid blue;
+}
+
+#one {
+    background-image: url("../images/caesar_salad.jpg");
+    background-size: cover;
+}
+
+#two {
+    background-image: url("../images/bread_rolls.jpg");
+    background-size: cover;
+}
+
+#three {
+    background-image: url("../images/asparagus_tart.jpg");
+    background-size: cover;
+}
+
+#four {
+    background-image: url("../images/french_onion_chicken.jpg");
+    background-size: cover;
+}
+
+@media(min-width:900px) {
+    .container{
+          display:grid;
+          grid-template-columns: repeat(8, 1fr);
+          grid-auto-rows: minmax(50px, auto);
+          grid-template-areas: 
+          "hd hd hd hd hd hd hd hd"
+          "nav nav nav nav nav nav nav nav"
+          "main main main main main main main main"
+          "ft ft ft ft ft ft ft ft";
+          /* border: 20px solid red; */
+      }
+
+      #NestedGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-gap: 25px;
+        /* border: 2px solid blue; */
+    }
+    }
