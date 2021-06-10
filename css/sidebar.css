@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     grid-area: sd;
-    background-color: orange;
-    border: 1px solid red;
+    background-color: whitesmoke;
+    /* border: 1px solid red; */
 }
 

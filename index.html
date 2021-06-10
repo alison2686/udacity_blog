@@ -2,49 +2,77 @@
 <html>
     <head>
         <meta charset="utf-8" />
-            <title>Kid Calamari's Cooking Blog</title>
+        <title>Kid Calamari's Cooking Blog</title>
         <meta name="description" content="Personal Blog Website" />
-        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/7e1b493547.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
             <header>
-                <h1>Kid Calamari's Cooking Blog</h1>
+                <h1 class="header-title">Kid Calamari's<br> Cooking Blog</h1>
             </header>
-            <div class="navbar">
+            <nav class="navbar">
                 <a href="blog_post.html">Recipes</a>
-                <a href="blog_post.html">About</a>
-                <a href="blog_post.html">Contact Us</a>
-             </div>
+                <a href="#subscribe">Subscribe</a>
+                <a href="#footer">Contact Us</a>
+            </nav>
             <div class="content">
+                <h5>Most Popular Recipes</h5>
                 <div id="NestedGrid">
                     <div id="one" class="card">
-                         <h2>Caesar Salad</h2>
-                         <div class="post_content">
-                             <a href="blog_post.html">Explore Recipe</a>
-                         </div>
-                     </div>
-                     <div id="two" class="card">
-                         <h2>Thanksgiving Dinner Rolls</h2>
-                         <div class="post_content">
-                            <a href="blog_post.html">Explore Recipe</a>
-                         </div>
-                     </div>
-                     <div id="three" class="card">
-                         <h2>Asparagus Tart</h2>
-                         <div class="post_content">
-                            <a href="blog_post.html">Explore Recipe</a>
-                         </div>
-                     </div>
-                     <div id="four" class="card">
-                         <h2>French Onion Chicken</h2>
-                         <div class="post_content">
-                            <a href="blog_post.html">Explore Recipe</a>
-                         </div>
-                     </div>
+                        <!-- <h2 class="card-title">Caesar Salad</h2> -->
+                        <div class="post-content">
+                            <a href="blog_post.html">
+                                <button>Explore Recipe</button>
+                            </a>
+                            <p>Classic caesar salad</p>
+
+                        </div>
+                    </div>
+                    <div id="two" class="card">
+                        <!-- <h2 class="card-title">Asparagus Tart</h2> -->
+                        <div class="post-content">
+                            <a href="blog_post.html">
+                                <button>Explore Recipe</button>
+                            </a>
+                            <p>Easy to make asparagus tart with gruyere and puff pastry</p>
+                        </div>
+                    </div>
+                    <div id="three" class="card">
+                        <!-- <h2 class="card-title">Thanksgiving Dinner Rolls</h2> -->
+                        <div class="post-content">
+                            <a href="blog_post.html">
+                                <button>Explore Recipe</button>
+                            </a>
+                            <p>Perfect buttery dinner rolls</p>
+                        </div>
+                    </div>
+                    <div id="four" class="card">
+                        <!-- <h2 class="card-title">French Onion Chicken</h2> -->
+                        <div class="post-content">
+                            <a href="blog_post.html">
+                                <button>Explore Recipe</button>
+                            </a>
+                            <p>French onion soup meets roast chicken</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe" id="subscribe">
+                    <div class="sub-card">
+                        <h2>Subscribe</h2>
+                        <h3>Sign up for our monthly newsletter!</h3>
+                        <input type="email" name="email" placeholder="e-mail address">
+                        <button>Join</button>
+                    </div>
                 </div>
             </div>
-        </div>   
-        <footer>Footer</footer>
+        </div>
+        <footer class="footer" id="footer">
+            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram-square fa-2x" aria-hidden="true"></a>
+            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-square fa-2x" aria-hidden="true"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank" class="fab fa-twitter-square fa-2x" aria-hidden="true"></a>
+        </footer>
     </body>
- </html> 
+</html>

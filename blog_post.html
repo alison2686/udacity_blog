@@ -4,50 +4,74 @@
         <meta charset="utf-8" />
             <title>Kid Calamari's Cooking Blog</title>
         <meta name="description" content="Personal Blog Website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/7e1b493547.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="blog_container">
+        <div class="blog-container">
             <header>
-                <h1>Recipe Posts</h1>
+                <h1 class="header-title">Recipe Posts</h1>
+                <a class="home-button" href="index.html">
+                    <button>Back to Home</button>
+                </a>            
             </header>
-            <div class="sidebar">
-                <a href=" ">About</a>
-                <a href=" ">Follow Us!</a>
-                <a href="https://linkedin.com">LinkedIn</a>
-                <a href="https://instagram.com">Instagram</a>
-                <a href="https://twitter.com/">Twitter</a>
-            </div>
-            <div class="blog_content">
-                <div id="blog_1" class="post">
-                    <h2>Caesar Salad</h2>
-                    <h3>Posted on: June 4, 2021</h3>
-                    <h4>Recipe by Kid Calamari</h4>
-                    <p>Recipe description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                    id est laborum.</p>
+            <div class="sidebar"> 
+                <h3 class="about-author">About the Author</h3>
+                <figure>
                     <img 
+                        id="author-image"
+                        src="images/author_img.jpg"
+                        alt="Kid Calamari, Author"
+                    />
+                    <figcaption>
+                        <div class="author-caption">Blogger and chef, Kid Calamari</div>
+                    </figcaption>
+                </figure>
+                <h4>Hi! I'm Kid Calamari</h4>
+                <p>Chef and food blogger. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href=" ">Recipe Archives</a>
+            </div>
+            <div class="blog-content">
+                <div id="blog-1" class="post">
+                    <section class="post-header">
+                        <img 
                         src="images/caesar_salad.jpg"
                         alt="Caesar Salad"
-                    />
+                        />
+                        <section class="recipe-details">
+                            <h2 class="recipe-title">Caesar Salad</h2>
+                            <p><em>Posted on: June 4, 2021 | Recipe by Kid Calamari</em></p>
+                        </section>
+                    </section>
+                    <article class="recipe-description">
+                        <p>Recipe description. <u>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua.</u> Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.<strong>Try this recipe at home!</strong></p>
                     <h3 class="ingredients">Ingredients:</h3>
-                    <ul>
-                        <li>Blah</li>
-                        <li>Blah</li>
-                        <li>Blah</li>
-                    </ul>
+                        <ul>
+                            <li>Blah</li>
+                            <li>Blah</li>
+                            <li>Blah</li>
+                        </ul>
                     <h3 class="directions">Directions:</h3>
-                    <ol>
-                        <li>Boop</li>
-                        <li>Boop</li>
-                        <li>Boop</li>
-                    </ol>
+                        <ol>
+                            <li>Boop</li>
+                            <li>Boop</li>
+                            <li>Boop</li>
+                        </ol>
+                    </article>
                 </div>
             </div>
-            <footer>Footer</footer>
+            <footer class="footer" id="footer">
+                <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram-square fa-2x" aria-hidden="true"></a>
+                <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-square fa-2x" aria-hidden="true"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank" class="fab fa-twitter-square fa-2x" aria-hidden="true"></a>
+            </footer>
         </div>
     </body>
  </html> 

@@ -1,8 +1,26 @@
 header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: center; */
     grid-area: hd;
-    justify-content: center;
-    background-color: darkgoldenrod;
-    border: 1px solid blue;
+    /* background-color: darkgoldenrod; */
+    /* border: 1px solid blue; */
+    background-image: url("../images/header6.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    min-height: 200px;
+    min-width: auto;
+    width: 100%;
+	height: 100%;
+	/* padding: 50px; */
+	color: #FFF;
+	text-shadow: 2px 2px 2px black;
+
+	
+}
+
+.header-title {
+    text-align: right;
+    color: whitesmoke;
+    padding: 40px;
+    font-size: auto;
 }
