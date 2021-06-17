@@ -11,12 +11,6 @@
     /* border: 20px solid orange; */
 }
 
-.navbar {
-    display: inline;
-    grid-area: nav;
-    /* border: 2px solid red;  */
-}
-
 .content {
     display: grid;
     grid-area:main;
@@ -30,14 +24,12 @@
     justify-content: flex-start;
     height: 100%;
     min-width: 200px;
-    max-width: 500px;
+    max-width: 600px;
     min-height: 250px;
     /* border-radius: 10px; */
     margin: 10px;
     object-fit: cover;
-
-
-
+    
     
     /* width: 100%;
     height: 100%;
@@ -54,17 +46,34 @@
     align-items: center;
     margin-top: auto;
     /* margin-left: auto; */
-    width: 100%;
+    /* width: 98%; */
     height: 30%;
     text-align: center;
     /* border: 1px solid black; */
     background-color: white;
+    padding: 10px;
     /* border-radius: 10px; */
     /* opacity: 0.8; */
 }
 
+.popular-recipes {
+    color: #C32148;
+    text-align: left;
+}
+
+.explore-button {
+    color: whitesmoke;
+    background: #2e3138;
+    border-color: #2e3138;
+    /* color: whitesmoke; */
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
 #NestedGrid {
     display: grid;
+    grid-template-columns: 100px 50% 200px;
     grid-template-columns: min-content;
     grid-template-rows: auto;
     grid-gap: 25px;
@@ -100,12 +109,18 @@
 }
 
 .subscribe {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    /* justify-content: center; */
     margin: auto;
     width: 200px;
-    padding: 25px;
+    padding: 100px;
+}
+
+#join-button {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 600px) and (max-width:900px) {
@@ -130,7 +145,7 @@
           grid-auto-rows: minmax(50px, auto);
           grid-template-areas: 
           "hd hd hd hd hd hd hd hd"
-          "nav nav nav nav nav nav nav nav"
+          /* "nav nav nav nav nav nav nav nav" */
           "main main main main main main main main"
           "ft ft ft ft ft ft ft ft";
           /* border: 20px solid red; */
@@ -138,9 +153,9 @@
 
       #NestedGrid {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 35% 35%;
         grid-template-rows: 50% 50%;
-        grid-gap: 25px;
+        grid-gap: 50px;
         /* border: 2px solid blue; */
     }
     }

@@ -25,22 +25,20 @@ img {
     width: 100%;
     max-width: 250px;
     height: 100%;
+    display: block;
 }
 
 figcaption {
-    padding: 10px;
+    /* padding: 10px;
     line-height: 1.5;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 0; */
+    font-size: 12px;
     text-align: right;
-    color: black;
+    /* color: black; */
     opacity: 0.7;
-}
-
-.caption {
-    font-weight: 300;
-    font-size: 0.8rem;
+    padding: 5px;
 }
 
 
@@ -60,20 +58,17 @@ figcaption {
 }
 
 .recipe-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: orange;
-    background-color: white;
-    border: none;
+    color: #C32148;
+    /* font-weight: bold; */
+    font-family: 'Pacifico', cursive;
+    /* background-color: white; */
+    /* border: none; */
     /* margin-left: 25px; */
 }
 
 .recipe-details {
     margin-left: 25px;
 
-}
-
-.home-button {
-    margin: 15px;
 }
 
 #author-image {

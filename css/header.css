@@ -1,5 +1,5 @@
 header {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     /* text-align: center; */
     grid-area: hd;
     /* background-color: darkgoldenrod; */
@@ -7,20 +7,55 @@ header {
     background-image: url("../images/header6.jpg");
     background-size: cover;
     /* background-repeat: no-repeat; */
-    min-height: 200px;
+    min-height: 220px;
     min-width: auto;
     width: 100%;
 	height: 100%;
 	/* padding: 50px; */
-	color: #FFF;
-	text-shadow: 2px 2px 2px black;
+	/* color: #FFF; */
+	
 
 	
 }
 
 .header-title {
+    font-family: 'Josefin Sans', sans-serif;
     text-align: right;
     color: whitesmoke;
     padding: 40px;
     font-size: auto;
+    text-shadow: 2px 2px 2px black;
+}
+
+.navbar {
+    /* display: inline; */
+    /* grid-area: nav; */
+    /* border: 2px solid red;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding: 40px 70px; */
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 80%; */
+    /* height: 80%; */
+    /* border: 2px solid red;  */
+    margin-top: auto;
+}
+
+li a {
+    display: inline;
+    color: #BF7D7D;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 2px black; */
 }

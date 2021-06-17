@@ -6,56 +6,72 @@
         <meta name="description" content="Personal Blog Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/7e1b493547.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
             <header>
                 <h1 class="header-title">Kid Calamari's<br> Cooking Blog</h1>
+                <nav class="navbar">
+                    <ul class="nav-ul">
+                        <li><a href="blog_post.html">Recipes</a></li>
+                        <li><a href="#subscribe">Subscribe</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                    </ul>
+                </nav>
             </header>
-            <nav class="navbar">
-                <a href="blog_post.html">Recipes</a>
-                <a href="#subscribe">Subscribe</a>
-                <a href="#footer">Contact Us</a>
-            </nav>
             <div class="content">
-                <h5>Most Popular Recipes</h5>
+                <h4 class="popular-recipes">Most Popular Recipes</h4>
                 <div id="NestedGrid">
                     <div id="one" class="card">
+                        <a href="blog_post.html">
+                            <button class="explore-button">Explore Recipe</button>
+                        </a>
                         <!-- <h2 class="card-title">Caesar Salad</h2> -->
                         <div class="post-content">
-                            <a href="blog_post.html">
-                                <button>Explore Recipe</button>
-                            </a>
-                            <p>Classic caesar salad</p>
-
+                            <p>Classic caesar salad. Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae. 
+                                Ut tristique et egestas quis ipsum. </p>
                         </div>
                     </div>
                     <div id="two" class="card">
+                        <a href="blog_post.html">
+                            <button class="explore-button">Explore Recipe</button>
+                        </a>
                         <!-- <h2 class="card-title">Asparagus Tart</h2> -->
                         <div class="post-content">
-                            <a href="blog_post.html">
-                                <button>Explore Recipe</button>
-                            </a>
-                            <p>Easy to make asparagus tart with gruyere and puff pastry</p>
+                            <p>Easy to make asparagus tart with gruyere and puff pastry. 
+                                Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae. 
+                                Ut tristique et egestas quis ipsum.</p>
                         </div>
                     </div>
                     <div id="three" class="card">
+                        <a href="blog_post.html">
+                            <button class="explore-button">Explore Recipe</button>
+                        </a>
                         <!-- <h2 class="card-title">Thanksgiving Dinner Rolls</h2> -->
                         <div class="post-content">
-                            <a href="blog_post.html">
-                                <button>Explore Recipe</button>
-                            </a>
-                            <p>Perfect buttery dinner rolls</p>
+                            <p>Perfect buttery dinner rolls. Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae. 
+                                Ut tristique et egestas quis ipsum.</p>
                         </div>
                     </div>
                     <div id="four" class="card">
+                        <a href="blog_post.html">
+                            <button class="explore-button">Explore Recipe</button>
+                        </a>
                         <!-- <h2 class="card-title">French Onion Chicken</h2> -->
                         <div class="post-content">
-                            <a href="blog_post.html">
-                                <button>Explore Recipe</button>
-                            </a>
-                            <p>French onion soup meets roast chicken</p>
+                            <p>French onion soup meets roast chicken. Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae. 
+                                Ut tristique et egestas quis ipsum.</p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +80,7 @@
                         <h2>Subscribe</h2>
                         <h3>Sign up for our monthly newsletter!</h3>
                         <input type="email" name="email" placeholder="e-mail address">
-                        <button>Join</button>
+                        <button id="join-button">Join</button>
                     </div>
                 </div>
             </div>
@@ -73,6 +89,7 @@
             <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram-square fa-2x" aria-hidden="true"></a>
             <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-square fa-2x" aria-hidden="true"></a>
             <a href="https://twitter.com/?lang=en" target="_blank" class="fab fa-twitter-square fa-2x" aria-hidden="true"></a>
+            <a href=" " target="_blank" class="fas fa-envelope-square fa-2x" aria-hidden="true"></a>
         </footer>
     </body>
 </html>
