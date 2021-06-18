@@ -3,8 +3,6 @@
     flex-direction: column;
     grid-area: sd;
     background-color: #F0F0F0;
-    /* border: 1px solid black; */
-    /* opacity: 0.8; */
     border-radius: 5px;
 }
 
@@ -14,18 +12,23 @@
 
 .about-author {
     font-family: 'Pacifico', cursive;
-    color: #C32148;
-    font-size: 20px;
+    color: #545454;
+    text-align: center;
+    font-size: 24px;
 }
 
 .bio {
     text-align: center;
-    /* padding: 10px; */
 }
 
 .archives {
-    color: #C32148;
     text-align: left;
     font-style: italic;
     padding: 10px;
 }
+
+.recipe-archive {
+    text-align: left;
+}
+
+
