@@ -1,6 +1,6 @@
 header {
     grid-area: hd;
-    background-image: url("../images/header6.jpg");
+    background-image: url("../images/header.jpg");
     background-size: cover;
     min-height: 220px;
     min-width: auto;
