@@ -19,9 +19,18 @@
                 </h1>
                 <nav class="navbar">
                     <ul class="nav-ul">
-                        <li><a href="blog_post_1.html">Recipes</a></li>
                         <li><a href="#subscribe">Subscribe</a></li>
                         <li><a href="#footer">Contact Us</a></li>
+                        <div class="recipe-dropdown">
+                            <li><a href="index.html">Recipes<i class="fa fa-caret-down"></i></a></li>
+                            <div class="dropdown-content">
+                                <a href="blog_post_1.html">Caesar Salad</a>
+                                <a href="blog_post_2.html">Asparagus Tart</a>
+                                <a href="blog_post_3.html">Dinner Rolls</a>
+                                <a href="blog_post_4.html">French Onion Chcicken</a>
+                            </div>
+                        </div>
+
                     </ul>
                 </nav>
             </header>
@@ -74,20 +83,21 @@
                     </div>
                 </div>
                 <div class="subscribe" id="subscribe">
-                    <div class="sub-card">
+                    <!-- <div class="sub-card"> -->
                         <h2>Subscribe</h2>
                         <h3>Sign up for our monthly newsletter!</h3>
                         <input type="email" name="email" placeholder="e-mail address" />
                         <button id="join-button">Join</button>
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
+            <footer class="footer" id="footer">
+                <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram-square fa-2x" aria-hidden="true"></a>
+                <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-square fa-2x" aria-hidden="true"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank" class="fab fa-twitter-square fa-2x" aria-hidden="true"></a>
+                <a href=" " target="_blank" class="fas fa-envelope-square fa-2x" aria-hidden="true"></a>
+            </footer>
         </div>
-        <footer class="footer" id="footer">
-            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram-square fa-2x" aria-hidden="true"></a>
-            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-square fa-2x" aria-hidden="true"></a>
-            <a href="https://twitter.com/?lang=en" target="_blank" class="fab fa-twitter-square fa-2x" aria-hidden="true"></a>
-            <a href=" " target="_blank" class="fas fa-envelope-square fa-2x" aria-hidden="true"></a>
-        </footer>
+
     </body>
 </html>

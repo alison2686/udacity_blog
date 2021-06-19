@@ -69,6 +69,14 @@ figcaption {
     
 }
 
+footer {
+    grid-area: ft;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-right: 60px;
+}
+
 @media (min-width: 600px) and (max-width:900px) {
     .blog-container {
         display: grid;
@@ -79,6 +87,14 @@ figcaption {
         "sd"
         "main"
         "ft"; 
+    }
+
+    footer {
+        grid-area: ft;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-right: 100px;
     }
   }
 
@@ -93,4 +109,12 @@ figcaption {
           "main main main main main main sd sd"
           "ft ft ft ft ft ft ft ft";
       }
+
+      footer {
+        grid-area: ft;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-right: 460px;
     }
+}
