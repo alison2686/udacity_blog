@@ -97,12 +97,11 @@
     flex-direction: column;
 }
 
-footer {
+.home-footer {
     grid-area: ft;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    padding-right: 60px;
+    padding-right: 70px;
 }
 
 @media (min-width: 600px) and (max-width:900px) {
@@ -132,12 +131,10 @@ footer {
         padding-left: 80px;
     }
 
-    footer {
+    .home-footer {
         grid-area: ft;
         display: flex;
-        /* align-items: center; */
         justify-content: center;
-        padding-right: 460px;
     }
   }
 
@@ -175,12 +172,10 @@ footer {
             padding-left: 200px;
         }
 
-        footer {
+        .home-footer {
             grid-area: ft;
             display: flex;
-            /* align-items: center; */
             justify-content: center;
-            padding-left: 380px;
         }
     }
 
