@@ -10,7 +10,6 @@ header {
 }
 
 .header-title {
-    font-family: 'Josefin Sans', sans-serif;
     text-align: right;
     color: whitesmoke;
     padding: 40px;
@@ -59,7 +58,6 @@ li a {
 
 @media (min-width: 600px) and (max-width:900px) {
     .header-title {
-        font-family: 'Josefin Sans', sans-serif;
         text-align: right;
         color: whitesmoke;
         padding-right: 70px;
@@ -93,7 +91,6 @@ li a {
 
 @media(min-width:900px) {
     .header-title {
-        font-family: 'Josefin Sans', sans-serif;
         text-align: right;
         color: whitesmoke;
         padding: 40px;
